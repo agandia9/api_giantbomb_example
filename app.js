@@ -2,6 +2,7 @@ const request = require('request')
 const cors = require('cors')
 const express = require('express')
 var http = require('http');
+// API_KEY NO DEBERÍA ESTAR AQUI...
 const api_key= "be78ab7bb822bf90173073ba3336431b403e1ce5"
 const PORT = process.env.PORT || 3000
 var bodyParser = require('body-parser')
