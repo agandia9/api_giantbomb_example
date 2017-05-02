@@ -27,7 +27,7 @@ http://api.giantbomb.com/search/?api_key=<%API-KEY%>&format=json&query=mario&res
 You must use
 
 ```
-https://floating-mountain-70543.herokuapp.com//search/?api_key=<%API-KEY%>&format=json&query=mario&resources=game
+https://floating-mountain-70543.herokuapp.com/search/?api_key=<%API-KEY%>&format=json&query=mario&resources=game
 ```
 
 Being `<%API-KEY%>` your own API Key needed to access this API (you must register first in the website https://www.giantbomb.com/)

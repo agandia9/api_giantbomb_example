@@ -17,7 +17,7 @@ app.use(cors())
 
 app.get('*', function (req, res) {
   const urlRequested = req.originalUrl
-  options.url = URL_BASE + urlRequested
+  options.url = urlRequested
   debugger
   request(options, function (error, response, body) {
     if (error) res.status(500).send('Something went wrong!')
